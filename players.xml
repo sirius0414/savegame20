@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<players>
+    <player uniqueUserId="qXro2L0ITbEg2rIi6Hz0Hs7UxRNs7GBAE7YNDXoUCXk=" timeLastConnected="2026/06/20 18:25">
+        <style filename="dataS/character/playerM/playerM.xml">
+            <facegear color="1"/>
+            <onepiece color="1" name="empty"/>
+            <bottom color="4" name="chinos"/>
+            <face color="1" name="head04"/>
+            <top color="10" name="tShirt01"/>
+            <gloves color="2" name="empty"/>
+            <headgear color="3" name="militia"/>
+            <glasses color="1" name="classic"/>
+            <footwear color="1" name="workBoots1"/>
+            <hairStyle color="19" name="hair01"/>
+            <beard color="19" name="empty"/>
+        </style>
+        <handTools>
+            <handTool uniqueId="HandToole3db18f41fd54dd63849b67fde4bf411"/>
+            <handTool uniqueId="HandToolb32553cfa47bb7bd1a82ce7bde16599e"/>
+        </handTools>
+    </player>
+    <player uniqueUserId="1BwfYr4rIBBnnXZPP/6sKyQwC8bxB0HgzdVFrHNVY/4=" timeLastConnected="2026/06/20 18:25">
+        <style filename="dataS/character/playerM/playerM.xml">
+            <facegear color="1"/>
+            <onepiece color="7" name="empty"/>
+            <bottom color="5" name="claas"/>
+            <face color="1" name="head04"/>
+            <top color="10" name="claas"/>
+            <gloves color="1" name="empty"/>
+            <headgear color="25" name="empty"/>
+            <glasses color="1" name="aviator"/>
+            <footwear color="1" name="workBoots2"/>
+            <hairStyle color="23" name="hair06"/>
+            <beard color="23" name="trimmed_head04"/>
+        </style>
+        <handTools>
+            <handTool uniqueId="HandTool58876544d9e11eadc1922713ca065c75"/>
+            <handTool uniqueId="HandTool71d419eea119f7996c7e94fff2c06d95"/>
+            <handTool uniqueId="HandTool71f4dbd8d14112382e599cb03bacd358"/>
+            <handTool uniqueId="HandToolef3888c54e522b759913c2535b2f937a"/>
+        </handTools>
+    </player>
+</players>

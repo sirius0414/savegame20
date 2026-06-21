@@ -1,0 +1,2817 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<vehicles>
+    <vehicle filename="data/vehicles/skoda/enyaq/enyaq.xml" uniqueId="vehicle7ee4522ac3b078c8ee4ed2c55e9a53b9" age="0.000000" price="63250.000000" farmId="1" propertyState="OWNED" operatingTime="1059.890259" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="770.070 104.406 -126.990" rotation="-0.04 -6.59 -0.02"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="false"/>
+        <configuration name="design" id="2" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="true"/>
+        <configuration name="attacherJoint" id="1" isActive="false"/>
+        <configuration name="attacherJoint" id="2" isActive="true"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="CONTINENTAL_ST" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.041784" wetness="0.000000"/>
+            <dirtNode amount="0.041784" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.041784" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.041784" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.041784" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.006979">
+            <wearNode amount="0.003917"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1000_" colorIndex="1" placementIndex="1"/>
+        <wheels lastConfigId="CONTINENTAL_ST"/>
+        <enterable activeCameraIndex="1" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-12.91 164.50 0.00" translation="0.000 0.000 5.000" zoom="5.000000" fovY="54.432205"/>
+            <camera rotation="-26.94 172.47 0.00" translation="0.365 1.370 -0.020" zoom="1.417940" fovY="60.000000"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="ELECTRICCHARGE" fillLevel="79.999962"/>
+        </fillUnit>
+        <drivable cruiseControl="180" cruiseControlReverse="30" odometerMilage="7.748811"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true"/>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="3" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="0.5" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="3" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/fendt/tigo75VR/tigo75VR.xml" uniqueId="vehicle71d170ba96036707b2d6b426eac2452c" age="0.000000" price="152000.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="894.572 107.126 15.698" rotation="105.18 -89.28 -104.89"/>
+        <component index="2" position="892.062 107.899 15.699" rotation="75.18 -89.28 -104.88"/>
+        <configuration name="fillUnit" id="1" isActive="false"/>
+        <configuration name="fillUnit" id="2" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="false"/>
+        <configuration name="fillVolume" id="2" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="false"/>
+        <configuration name="cover" id="2" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TwinRadial" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.005343" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005343" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000432">
+            <wearNode amount="0.000589"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1003_" colorIndex="8" placementIndex="2"/>
+        <cylindered>
+            <movingTool animationTime="0.520000"/>
+        </cylindered>
+        <wheels lastConfigId="DEFAULT_TRELLEBORG_TwinRadial"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+            <unit index="2" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/claas/evion450/evion450.xml" uniqueId="vehiclef4eb06e16e3ec05b761352627ce5ac7e" age="0.000000" price="226500.000000" farmId="1" propertyState="OWNED" operatingTime="9958.531250" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="903.817 107.102 -373.357" rotation="-179.15 2.15 -179.99"/>
+        <component index="2" position="903.764 108.023 -371.951" rotation="-179.15 2.15 179.99"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="BROAD_CONTINENTAL_combineMasterVF" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.187955" wetness="1.000000"/>
+            <dirtNode amount="0.062873" wetness="0.979869" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.979869"/>
+            <dirtNode amount="0.062342" wetness="0.979869" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.979869"/>
+            <dirtNode amount="0.062873" wetness="0.979869" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.979869"/>
+            <dirtNode amount="0.062929" wetness="0.979869" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.979869"/>
+        </washable>
+        <wearable damage="0.001418">
+            <wearNode amount="0.878105"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1010_" colorIndex="8" placementIndex="2"/>
+        <cylindered>
+            <movingTool rotation="36.960327"/>
+        </cylindered>
+        <wheels lastConfigId="BROAD_CONTINENTAL_combineMasterVF"/>
+        <enterable activeCameraIndex="2" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-10.20 774.77 0.00" translation="0.000 0.000 19.100" zoom="19.100010" fovY="54.432205"/>
+            <camera rotation="-5.84 158.88 0.00" translation="-0.049 3.541 2.535" zoom="4.355117" fovY="75.000008"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="WHEAT" fillLevel="209.993835"/>
+            <unit index="2" fillType="DIESEL" fillLevel="416.991150"/>
+            <unit index="3" fillType="DEF" fillLevel="66.999733"/>
+        </fillUnit>
+        <drivable cruiseControl="32" cruiseControlReverse="15" odometerMilage="23.730621"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true">
+            <lastJob type="FIELDWORK_CP">
+                <parameter name="vehicle" vehicleUniqueId="vehiclef4eb06e16e3ec05b761352627ce5ac7e"/>
+                <cpJobParameters x="978.645142" z="-208.682510" angle="2.356194" name="startPosition"/>
+                <cpJobParameters x="978.645142" z="-208.682510" name="fieldPosition"/>
+                <cpJobParameters currentValue="1" name="startAt"/>
+                <cpJobParameters currentValue="0" name="laneOffset"/>
+            </lastJob>
+        </aiJobVehicle>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <dischargeable isAllowed="true"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+        <combine isSwathActive="true" workedHectars="10.775900" numAttachedCutters="0"/>
+        <pipe state="1" isStateChangeAllowed="true"/>
+        <FS25_Courseplay>
+            <cpCourseManager rememberedWpIx="3372" assignedCoursesID="1"/>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="2" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="1.999999999999982" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="6.199999999999993" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="3" name="strawSwath"/>
+                <settings currentValue="5.899999999998592" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="6.199999999999994" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="2" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters x="978.645142" z="-208.682510" angle="2.356194" name="startPosition"/>
+                    <cpJobParameters x="978.645142" z="-208.682510" name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="3" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/claas/vario620/vario620.xml" uniqueId="vehiclecaa7315f8fc52de423471ac8038c84fc" age="0.000000" price="52000.000000" farmId="1" propertyState="OWNED" operatingTime="9873.169922" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="907.570 107.011 -362.346" rotation="-175.39 89.19 179.99"/>
+        <washable>
+            <dirtNode amount="0.399823" wetness="1.000000"/>
+        </washable>
+        <wearable damage="0.000405">
+            <wearNode amount="0.417313"/>
+        </wearable>
+        <cylindered>
+            <movingTool translation="-0.173000"/>
+            <movingTool rotation="-5.000000"/>
+        </cylindered>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <fruitExtraObjects lastFruitType="WHEAT"/>
+        <cutter cutHeight="0.150000"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/kverneland/pw10012/pw10012.xml" uniqueId="vehicle1089ceb3a557d4cca88ab13276259445" age="0.000000" price="75000.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="903.360 107.436 71.233" rotation="-178.86 -75.18 -169.01"/>
+        <component index="2" position="896.861 107.734 70.503" rotation="174.37 -87.48 -174.59"/>
+        <component index="3" position="892.197 107.863 70.299" rotation="174.38 -87.47 -174.59"/>
+        <component index="4" position="897.215 109.679 70.632" rotation="90.81 -3.67 -7.84"/>
+        <component index="5" position="907.039 109.150 71.036" rotation="85.48 -1.04 -11.92"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="wheel" id="TRELLEBORG_DEFAULT" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.006326" wetness="0.000000"/>
+            <dirtNode amount="0.006326" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006326" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006326" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006326" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000472">
+            <wearNode amount="0.000593"/>
+        </wearable>
+        <wheels lastConfigId="TRELLEBORG_DEFAULT"/>
+        <attachable lowerAnimTime="0.000000" isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+        <plow rotationMax="false" turnAnimTime="0.000000"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/amazone/zgts10001/zgts10001.xml" uniqueId="vehicleda8ba35cd8bbad3038e63f9e349ccaca" age="0.000000" price="65000.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="895.869 107.431 21.912" rotation="15.77 -89.08 -15.88"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TM600" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.005316" wetness="0.000000"/>
+            <dirtNode amount="0.005316" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.005316" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000353">
+            <wearNode amount="0.000498"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1110_" colorIndex="8" placementIndex="2"/>
+        <wheels lastConfigId="DEFAULT_TRELLEBORG_TM600"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <variableWorkWidth leftSide="6" rightSide="6"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+        <dischargeable isAllowed="true"/>
+        <FS25_precisionFarming>
+            <extendedSprayer sprayAmountAutoMode="true" sprayAmountManual="1"/>
+        </FS25_precisionFarming>
+    </vehicle>
+    <vehicle filename="data/vehicles/krone/swadroTS970/swadroTS970.xml" uniqueId="vehicle09ec118edae055e4afc1f879bc97214e" age="0.000000" price="60000.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="893.743 107.084 33.206" rotation="-1.73 -86.98 2.26"/>
+        <component index="2" position="889.201 108.039 33.443" rotation="-0.50 -86.97 0.98"/>
+        <component index="3" position="892.095 109.583 34.131" rotation="-86.98 0.13 90.54"/>
+        <component index="4" position="894.383 108.015 33.170" rotation="-2.44 -86.98 2.97"/>
+        <component index="5" position="896.496 109.622 32.208" rotation="86.98 -0.12 -89.46"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="wheel" id="TRELLEBORG_DEFAULT" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.006490" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.006490" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000435">
+            <wearNode amount="0.000608"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1120_" colorIndex="8" placementIndex="2"/>
+        <wheels lastConfigId="TRELLEBORG_DEFAULT"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+    </vehicle>
+    <vehicle modName="FS25_MapsSupplementaryPackage" filename="$moddir$FS25_MapsSupplementaryPackage/vehicles/mks35/mks35.xml" uniqueId="vehicleed76ee46594e6657fc25f8771facbc0a" age="0.000000" price="91090.000000" farmId="1" propertyState="OWNED" operatingTime="1728.200806" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="889.129 107.211 -41.834" rotation="-179.73 44.27 179.95"/>
+        <configuration name="fillUnit" id="1" isActive="false"/>
+        <configuration name="fillUnit" id="3" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="wheel" id="CONTINENTAL_DEFAULT" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.128179" wetness="0.000000"/>
+            <dirtNode amount="0.189109" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.204818" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.178406" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.189452" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.178544" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.189593" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.010219">
+            <wearNode amount="0.012016"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1130_" colorIndex="8" placementIndex="2"/>
+        <wheels lastConfigId="CONTINENTAL_DEFAULT"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer tipState="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/krone/bigM450/bigM450.xml" uniqueId="vehicle59c370b33310834e5f2fee0ef492c727" age="0.000000" price="468000.000000" farmId="1" propertyState="OWNED" operatingTime="17.798203" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="895.800 106.798 -1.766" rotation="-30.08 -87.17 29.34"/>
+        <component index="2" position="898.808 107.838 -1.923" rotation="-34.75 -87.02 34.02"/>
+        <component index="3" position="896.721 109.336 -0.883" rotation="-87.50 11.41 89.72"/>
+        <component index="4" position="896.636 109.277 -2.847" rotation="87.52 8.57 -91.14"/>
+        <component index="5" position="892.222 108.058 -1.642" rotation="-30.08 -87.17 29.34"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TM800" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.014594" wetness="0.000000"/>
+            <dirtNode amount="0.014594" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.014594" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.014594" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.014594" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.001727">
+            <wearNode amount="0.001368"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1030_" colorIndex="8" placementIndex="1"/>
+        <wheels lastConfigId="DEFAULT_TRELLEBORG_TM800"/>
+        <enterable activeCameraIndex="1" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-16.35 408.34 0.00" translation="0.000 0.000 8.790" zoom="8.790213" fovY="54.432205"/>
+            <camera rotation="-24.29 183.52 0.00" translation="0.000 3.801 3.123" zoom="4.919892" fovY="75.000008"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="DIESEL" fillLevel="776.999695"/>
+            <unit index="2" fillType="DEF" fillLevel="80.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="43" cruiseControlReverse="22" odometerMilage="0.001324"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true"/>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <fruitExtraObjects lastFruitType="UNKNOWN"/>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+        <workMode state="1"/>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="3" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="9.99999999999998" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="1" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/forestryLocomotive01.xml" uniqueId="vehicle2bd19b2f2ac6774c67ad035d24fa69e8" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781" selectedObjectIndex="8" subSelectedObjectIndex="1">
+        <component index="1" position="110.899 143.737 -1095.854" rotation="-1.13 -90.00 0.00"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <enterable activeCameraIndex="1" isTabbable="false" isLeavingAllowed="true">
+            <camera rotation="-24.00 180.00 0.00" translation="0.000 0.000 16.000" zoom="16.000010" fovY="54.432205"/>
+            <camera rotation="0.00 180.00 0.00" translation="-1.108 3.590 -4.552" zoom="5.902007" fovY="60.000000"/>
+        </enterable>
+        <drivable cruiseControl="80" cruiseControlReverse="80" odometerMilage="501.668579"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle4ac996f12f14a1199f6c99b71eb2c260" inputJointIndex="1"/>
+        </attacherJoints>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehicle4ac996f12f14a1199f6c99b71eb2c260" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.513672">
+        <component index="1" position="124.900 143.536 -1095.854" rotation="-0.04 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle7bd047f0487d8e7a2ecddd9296a658f5" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehicle7bd047f0487d8e7a2ecddd9296a658f5" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="142.505 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle37e2a9494d08b02026bde90f291f02bc" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehicle37e2a9494d08b02026bde90f291f02bc" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="160.608 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle34605858ce34ab81f4f1818d26d19040" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehicle34605858ce34ab81f4f1818d26d19040" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="178.811 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclebf0b16209a045926400d39a8a692e34c" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehiclebf0b16209a045926400d39a8a692e34c" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="196.894 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle86f7dce78cea5276b597d9466681ecbf" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehicle86f7dce78cea5276b597d9466681ecbf" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.515625">
+        <component index="1" position="212.441 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle56aa7e181a32c39261c2edf3435c3b1a" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/train/wagonTimberUS/wagonTimberUS.xml" uniqueId="vehicle56aa7e181a32c39261c2edf3435c3b1a" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="227.127 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="tensionBelts" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclef31583668f005a23ec05bcb3af01e713" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+        <FS25_UniversalAutoload>
+            <universalAutoload>
+                <currentState tipside="left" loadside="both" materialIndex="1" containerIndex="1" loadingFilter="false" autoCollectionMode="false" useHorizontalLoading="false" loadWidth="0.000000" loadHeight="0.000000" loadLength="0.000000" actualWidth="0.000000" actualLength="0.000000" layerCount="0" layerHeight="0.000000" nextLayerHeight="0.000000" lastLoadLength="0.000000" loadAreaIndex="1"/>
+            </universalAutoload>
+        </FS25_UniversalAutoload>
+    </vehicle>
+    <vehicle filename="data/vehicles/train/wagonTimberUS/wagonTimberUS.xml" uniqueId="vehiclef31583668f005a23ec05bcb3af01e713" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22586.550781">
+        <component index="1" position="245.534 143.527 -1095.854" rotation="-0.00 -90.00 0.00"/>
+        <configuration name="tensionBelts" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <attachable isDetachingBlocked="false"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+        <FS25_UniversalAutoload>
+            <universalAutoload>
+                <currentState tipside="left" loadside="both" materialIndex="1" containerIndex="1" loadingFilter="false" autoCollectionMode="false" useHorizontalLoading="false" loadWidth="0.000000" loadHeight="0.000000" loadLength="0.000000" actualWidth="0.000000" actualLength="0.000000" layerCount="0" layerHeight="0.000000" nextLayerHeight="0.000000" lastLoadLength="0.000000" loadAreaIndex="1"/>
+            </universalAutoload>
+        </FS25_UniversalAutoload>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/forestryLocomotive02.xml" uniqueId="vehicle263666a51674ad278ad631a4c9a6db9d" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609" selectedObjectIndex="8" subSelectedObjectIndex="1">
+        <component index="1" position="-1919.525 101.255 -1215.840" rotation="177.44 -44.96 -180.00"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <enterable activeCameraIndex="1" isTabbable="false" isLeavingAllowed="true">
+            <camera rotation="-24.00 180.00 0.00" translation="0.000 0.000 16.000" zoom="16.000010" fovY="54.432205"/>
+            <camera rotation="0.00 180.00 0.00" translation="-1.108 3.590 -4.552" zoom="5.902007" fovY="60.000000"/>
+        </enterable>
+        <drivable cruiseControl="80" cruiseControlReverse="80" odometerMilage="501.090790"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle3641998ee643e1ed38207c7d8e44bfbb" inputJointIndex="1"/>
+        </attacherJoints>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehicle3641998ee643e1ed38207c7d8e44bfbb" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1909.638 100.699 -1205.946" rotation="179.11 -45.11 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle13553a4bbb40b594dc2f8bac7ced814d" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehicle13553a4bbb40b594dc2f8bac7ced814d" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1897.165 100.505 -1193.512" rotation="-180.00 -44.96 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicleefc24cc89bc835396cebf73e15ad0161" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehicleefc24cc89bc835396cebf73e15ad0161" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1883.671 100.505 -1180.003" rotation="-180.00 -44.99 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicleef867f5bc0d66ba95ecb7d00f6359e1f" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehicleef867f5bc0d66ba95ecb7d00f6359e1f" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1873.469 100.505 -1169.782" rotation="-180.00 -45.07 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclecc66967aa2343f3e50d9ae2ad9ead0a3" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehiclecc66967aa2343f3e50d9ae2ad9ead0a3" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1863.171 100.505 -1159.502" rotation="-180.00 -45.02 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicled903e6108e0bd133ebe699e230e73c86" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehicled903e6108e0bd133ebe699e230e73c86" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1850.295 100.505 -1146.633" rotation="-180.00 -45.00 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle73107c95acfc985b12882f122324151a" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/train/wagonFlatBedUS/wagonFlatBedUS.xml" uniqueId="vehicle73107c95acfc985b12882f122324151a" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.566406">
+        <component index="1" position="-1837.344 100.505 -1133.682" rotation="-180.00 -45.00 -180.00"/>
+        <configuration name="tensionBelts" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle51b92debf1076cc3a7bfb420f516e5cf" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+        <FS25_UniversalAutoload>
+            <universalAutoload>
+                <currentState tipside="left" loadside="both" materialIndex="1" containerIndex="1" loadingFilter="false" autoCollectionMode="false" useHorizontalLoading="false" loadWidth="0.000000" loadHeight="0.000000" loadLength="0.000000" actualWidth="0.000000" actualLength="0.000000" layerCount="0" layerHeight="0.000000" nextLayerHeight="0.000000" lastLoadLength="0.000000" loadAreaIndex="1"/>
+            </universalAutoload>
+        </FS25_UniversalAutoload>
+    </vehicle>
+    <vehicle filename="data/vehicles/train/wagonTimberUS/wagonTimberUS.xml" uniqueId="vehicle51b92debf1076cc3a7bfb420f516e5cf" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22585.599609">
+        <component index="1" position="-1821.501 100.505 -1117.839" rotation="-180.00 -45.00 -180.00"/>
+        <configuration name="tensionBelts" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <attachable isDetachingBlocked="false"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+        <FS25_UniversalAutoload>
+            <universalAutoload>
+                <currentState tipside="left" loadside="both" materialIndex="1" containerIndex="1" loadingFilter="false" autoCollectionMode="false" useHorizontalLoading="false" loadWidth="0.000000" loadHeight="0.000000" loadLength="0.000000" actualWidth="0.000000" actualLength="0.000000" layerCount="0" layerHeight="0.000000" nextLayerHeight="0.000000" lastLoadLength="0.000000" loadAreaIndex="1"/>
+            </universalAutoload>
+        </FS25_UniversalAutoload>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/forestryLocomotive03.xml" uniqueId="vehiclef79f09d34f0ac521561bcc4c458dc724" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406" selectedObjectIndex="6" subSelectedObjectIndex="1">
+        <component index="1" position="818.764 95.939 -661.409" rotation="-0.79 -90.00 0.00"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <enterable activeCameraIndex="1" isTabbable="false" isLeavingAllowed="true">
+            <camera rotation="-24.00 180.00 0.00" translation="0.000 0.000 16.000" zoom="16.000010" fovY="54.432205"/>
+            <camera rotation="0.00 180.00 0.00" translation="-1.108 3.590 -4.552" zoom="5.902007" fovY="60.000000"/>
+        </enterable>
+        <drivable cruiseControl="80" cruiseControlReverse="80" odometerMilage="501.625000"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle6dfff84f7a9246329e9a3680b0bf0bdc" inputJointIndex="1"/>
+        </attacherJoints>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehicle6dfff84f7a9246329e9a3680b0bf0bdc" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="832.764 95.710 -661.407" rotation="-0.90 -90.00 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclea3834bc381dd9118dc39ffa87cb4184d" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonGrainEU.xml" uniqueId="vehiclea3834bc381dd9118dc39ffa87cb4184d" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="850.375 95.418 -661.412" rotation="-0.03 -71.53 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle48b5a1f98db3d465320604e24608b56c" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehicle48b5a1f98db3d465320604e24608b56c" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="866.151 95.412 -669.559" rotation="0.00 -15.95 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclea638bd5fa89896a6c247d31e2c35bb74" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/wagonWoodChipsEU.xml" uniqueId="vehiclea638bd5fa89896a6c247d31e2c35bb74" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="869.526 95.412 -687.065" rotation="-0.00 0.43 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle45064e3f42710a13b043d72795c52a97" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehicle45064e3f42710a13b043d72795c52a97" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="869.386 95.412 -705.145" rotation="-0.00 0.53 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehicle7886e3c6535ee3c2d22b1bc4ab46f6cc" inputJointIndex="1"/>
+        </attacherJoints>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle modName="FS25_Oberthal" filename="$moddir$FS25_Oberthal/maps/train/liquidityWagon/liquidityWagon.xml" uniqueId="vehicle7886e3c6535ee3c2d22b1bc4ab46f6cc" age="0.000000" price="1.000000" farmId="0" propertyState="NONE" operatingTime="22584.566406">
+        <component index="1" position="869.261 95.409 -719.589" rotation="0.08 0.26 0.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="true"/>
+        <wheels lastConfigId="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <attachable isDetachingBlocked="false"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <trailer doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/krone/gx520/gx520.xml" uniqueId="vehicle329887f9e43d5739ab22826a52ff0a3e" age="0.000000" price="139000.000000" farmId="1" propertyState="OWNED" operatingTime="9148.793945" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="888.127 107.164 -366.525" rotation="-179.27 -4.73 -180.00"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="cover" id="1" isActive="false"/>
+        <configuration name="cover" id="2" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_T404" isActive="false"/>
+        <configuration name="wheel" id="BROAD_MICHELIN_cargoXBib" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.961779" wetness="0.000000"/>
+            <dirtNode amount="0.831124" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.831253" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.831485" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.830714" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000003" wetness="0.000000"/>
+            <dirtNode amount="0.831208" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000003" wetness="0.000000"/>
+            <dirtNode amount="0.831301" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000003" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.006918">
+            <wearNode amount="0.095701"/>
+        </wearable>
+        <licensePlates variation="1" characters="EYI568___" colorIndex="2" placementIndex="1"/>
+        <cylindered>
+            <movingTool rotation="0.000000"/>
+        </cylindered>
+        <wheels lastConfigId="BROAD_MICHELIN_cargoXBib"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+        <dischargeable isAllowed="true"/>
+        <trailer tipSideIndex="3" doorState="false" tipAnimationTime="0.000000" tipState="0"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/volvo/fhElectric/fhElectric.xml" uniqueId="vehicle82fa1e0558e299e447e6663b10de36d8" age="0.000000" price="190500.000000" farmId="1" propertyState="OWNED" operatingTime="10223.957031" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="875.014 104.148 -132.478" rotation="-179.44 -0.96 -179.99"/>
+        <component index="2" position="874.962 105.046 -135.552" rotation="-179.44 -0.96 -179.96"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="wheel" id="CONTINENTAL_4X2" isActive="true"/>
+        <configuration name="design7" id="1" isActive="true"/>
+        <configuration name="designColor2" id="1" isActive="true"/>
+        <configuration name="design6" id="1" isActive="true"/>
+        <configuration name="motor" id="5" isActive="true"/>
+        <configuration name="motor" id="4" isActive="false"/>
+        <configuration name="designColor" id="7" isActive="true"/>
+        <configuration name="design4" id="1" isActive="false"/>
+        <configuration name="design4" id="4" isActive="true"/>
+        <configuration name="design5" id="3" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="design2" id="4" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="attacherJoint" id="1" isActive="true"/>
+        <configuration name="design3" id="1" isActive="false"/>
+        <configuration name="design3" id="2" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="false"/>
+        <configuration name="baseColor" id="4" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.680305" wetness="0.000000"/>
+            <dirtNode amount="0.511568" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.511726" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.512301" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.511420" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.069692">
+            <wearNode amount="0.063779"/>
+        </wearable>
+        <licensePlates variation="6" characters="DDFP1031_" colorIndex="2" placementIndex="1"/>
+        <wheels lastConfigId="CONTINENTAL_4X2"/>
+        <enterable activeCameraIndex="1" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-39.49 1961.61 0.00" translation="0.000 0.000 23.600" zoom="23.600000" fovY="54.432205"/>
+            <camera rotation="-14.06 193.76 0.00" translation="0.705 3.084 3.253" zoom="4.537569" fovY="70.000008"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="ELECTRICCHARGE" fillLevel="486.978699"/>
+            <unit index="2" fillType="DEF" fillLevel="64.000000"/>
+            <unit index="3" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="90" cruiseControlReverse="15" odometerMilage="74.168259"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true"/>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="1.4999999999999816" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="3" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="0.5" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="3" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/krone/profiLiner/profiLiner.xml" uniqueId="vehicle7aaf51db3a9ff73566fb10d3b3ef6c50" age="0.000000" price="30000.000000" farmId="1" propertyState="OWNED" operatingTime="3684.407959" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="886.070 107.118 97.809" rotation="-2.73 -83.62 1.93"/>
+        <configuration name="designColor2" id="1" isActive="true"/>
+        <configuration name="trailer" id="1" isActive="true"/>
+        <configuration name="designColor" id="2" isActive="true"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="designColor3" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="tensionBelts" id="1" isActive="true"/>
+        <configuration name="wheel" id="CONTINENTAL_DEFAULT" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.227229" wetness="0.000000"/>
+            <dirtNode amount="0.349181" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349825" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349440" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349067" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349947" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349012" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.018257">
+            <wearNode amount="0.021303"/>
+        </wearable>
+        <licensePlates variation="1" characters="EAK674___" colorIndex="2" placementIndex="1"/>
+        <wheels lastConfigId="CONTINENTAL_DEFAULT"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+        <dischargeable isAllowed="true"/>
+        <trailer tipSideIndex="1" doorState="false" tipAnimationTime="1.000000" tipState="2"/>
+        <tensionBelts>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+            <belt isActive="true"/>
+        </tensionBelts>
+        <FS25_UniversalAutoload>
+            <universalAutoload>
+                <currentState tipside="left" loadside="left" materialIndex="1" containerIndex="1" loadingFilter="false" autoCollectionMode="false" useHorizontalLoading="false" loadWidth="0.000000" loadHeight="0.000000" loadLength="0.000000" actualWidth="0.000000" actualLength="0.000000" layerCount="0" layerHeight="0.000000" nextLayerHeight="1.516139" lastLoadLength="1.391296" loadAreaIndex="1"/>
+            </universalAutoload>
+        </FS25_UniversalAutoload>
+    </vehicle>
+    <vehicle modName="FS25_ElmersHaulmasterXL" filename="$moddir$FS25_ElmersHaulmasterXL/haulMasterXL.xml" uniqueId="vehiclea434a91d3eadfbf99928aa60eafbb52e" age="0.000000" price="212000.000000" farmId="1" propertyState="OWNED" operatingTime="2447.490479" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="828.679 104.452 -82.522" rotation="0.19 -0.24 -0.48"/>
+        <component index="2" position="830.094 105.241 -83.036" rotation="0.27 -0.24 -0.48"/>
+        <component index="3" position="827.282 105.265 -83.048" rotation="0.26 -0.24 -0.48"/>
+        <configuration name="cylindered" id="1" isActive="false"/>
+        <configuration name="cylindered" id="2" isActive="true"/>
+        <configuration name="animation" id="1" isActive="false"/>
+        <configuration name="animation" id="2" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT" isActive="false"/>
+        <configuration name="wheel" id="CRAWLER" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="false"/>
+        <configuration name="fillVolume" id="3" isActive="true"/>
+        <configuration name="handToolHolder" id="1" isActive="false"/>
+        <configuration name="handToolHolder" id="2" isActive="true"/>
+        <configuration name="fillUnit" id="1" isActive="false"/>
+        <configuration name="fillUnit" id="2" isActive="true"/>
+        <configuration name="folding" id="1" isActive="false"/>
+        <configuration name="folding" id="2" isActive="true"/>
+        <configuration name="pipe" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="false"/>
+        <configuration name="design" id="2" isActive="true"/>
+        <configuration name="powerConsumer" id="1" isActive="false"/>
+        <configuration name="powerConsumer" id="2" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="attacherJoint" id="1" isActive="false"/>
+        <configuration name="attacherJoint" id="2" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="false"/>
+        <configuration name="rimColor" id="SHARED_WHITE2" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="false"/>
+        <configuration name="baseColor" id="CLAAS_GREEN1" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.213495" wetness="0.000000"/>
+            <dirtNode amount="0.349242" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349866" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000300">
+            <wearNode amount="0.021677"/>
+        </wearable>
+        <cylindered>
+            <movingTool rotation="-17.252968"/>
+            <movingTool rotation="-30.000000"/>
+            <movingTool rotation="0.000000"/>
+        </cylindered>
+        <handToolHolders>
+            <handToolHolder index="1" uniqueId="d7a4a32ce70a5a6effac03aa555d490d"/>
+        </handToolHolders>
+        <wheels lastConfigId="CRAWLER"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+        <dischargeable isAllowed="true"/>
+        <trailer tipState="0"/>
+        <pipe state="1" isStateChangeAllowed="true"/>
+        <liftableAxle state="false"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/newHolland/fd250/fd250.xml" uniqueId="vehiclec3ef5472335999800ff4a58e8d807b7d" age="0.000000" price="147500.000000" farmId="1" propertyState="OWNED" operatingTime="6745.050781" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="893.858 107.477 -369.289" rotation="146.93 85.80 169.67"/>
+        <component index="2" position="893.527 108.400 -374.629" rotation="146.78 85.80 169.58"/>
+        <component index="3" position="894.300 108.260 -363.934" rotation="147.22 85.81 170.01"/>
+        <component index="4" position="892.909 108.105 -369.212" rotation="152.17 85.81 169.93"/>
+        <component index="5" position="893.157 107.546 -374.302" rotation="179.20 -0.03 -179.95"/>
+        <component index="6" position="893.156 107.305 -375.767" rotation="-177.54 -0.03 -179.89"/>
+        <configuration name="cylindered" id="1" isActive="false"/>
+        <configuration name="cylindered" id="2" isActive="true"/>
+        <configuration name="designColor" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="animation" id="1" isActive="false"/>
+        <configuration name="animation" id="2" isActive="true"/>
+        <configuration name="folding" id="1" isActive="false"/>
+        <configuration name="folding" id="2" isActive="true"/>
+        <configuration name="component" id="1" isActive="false"/>
+        <configuration name="component" id="2" isActive="true"/>
+        <configuration name="inputAttacherJoint" id="1" isActive="false"/>
+        <configuration name="inputAttacherJoint" id="2" isActive="true"/>
+        <configuration name="wheel" id="1" isActive="false"/>
+        <configuration name="wheel" id="2" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.200703" wetness="1.000000"/>
+            <dirtNode amount="0.200703" wetness="1.000000"/>
+            <dirtNode amount="0.075292" wetness="0.982061"/>
+            <dirtNode amount="0.075673" wetness="0.982061" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.982061"/>
+            <dirtNode amount="0.075408" wetness="0.982061" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.982061"/>
+            <dirtNode amount="0.000000" wetness="0.982061"/>
+            <dirtNode amount="0.075666" wetness="0.982061" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.982061"/>
+        </washable>
+        <wearable damage="0.000427">
+            <wearNode amount="0.286326"/>
+        </wearable>
+        <cylindered>
+            <movingTool rotation="-20.000000"/>
+            <movingTool rotation="-20.000000"/>
+            <movingTool rotation="-20.000000"/>
+            <movingTool translation="-0.077667"/>
+            <movingTool translation="-0.077667"/>
+            <movingTool translation="-0.077667"/>
+        </cylindered>
+        <wheels lastConfigId="2"/>
+        <attachable lowerAnimTime="0.000000" isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+        <fruitExtraObjects lastFruitType="CANOLA"/>
+        <cutter cutHeight="0.300000"/>
+    </vehicle>
+    <vehicle modName="FS25_claasAxion800" filename="$moddir$FS25_claasAxion800/axion800.xml" uniqueId="vehicle45e1ebde4ed321e76023c5c6c24978db" age="0.000000" price="244950.000000" farmId="1" propertyState="OWNED" operatingTime="8832.698242" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="1626.624 100.910 -284.547" rotation="-178.55 -87.01 178.03"/>
+        <component index="2" position="1625.184 101.603 -284.624" rotation="-178.85 -87.01 178.30"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="cropSensor" id="1" isActive="false"/>
+        <configuration name="cropSensor" id="2" isActive="true"/>
+        <configuration name="motor" id="1" isActive="false"/>
+        <configuration name="motor" id="5" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TM900" isActive="false"/>
+        <configuration name="wheel" id="DEFAULT_CONTINENTAL_tractorMaster" isActive="true"/>
+        <washable>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.098843" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.098966" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.098680" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.099564" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.058351">
+            <wearNode amount="0.139230"/>
+        </wearable>
+        <licensePlates variation="1" characters="EYI568___" colorIndex="2" placementIndex="1"/>
+        <wheels lastConfigId="DEFAULT_CONTINENTAL_tractorMaster"/>
+        <enterable activeCameraIndex="2" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-9.09 798.33 0.00" translation="0.000 0.000 20.800" zoom="20.799999" fovY="54.432205"/>
+            <camera rotation="-8.51 518.53 0.00" translation="0.000 2.874 -0.950" zoom="3.026645" fovY="60.000000"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="DIESEL" fillLevel="210.933884"/>
+            <unit index="2" fillType="DEF" fillLevel="19.999353"/>
+            <unit index="3" fillType="AIR" fillLevel="3000.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="53" cruiseControlReverse="33" odometerMilage="38.380272"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true">
+            <lastJob type="FIELDWORK_CP">
+                <parameter name="vehicle" vehicleUniqueId="vehicle45e1ebde4ed321e76023c5c6c24978db"/>
+                <cpJobParameters x="1445.060303" z="-79.075737" angle="3.926991" name="startPosition"/>
+                <cpJobParameters x="1445.060303" z="-79.075737" name="fieldPosition"/>
+                <cpJobParameters currentValue="2" name="startAt"/>
+                <cpJobParameters currentValue="0" name="laneOffset"/>
+            </lastJob>
+        </aiJobVehicle>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="4" moveDown="false" attachedVehicleUniqueId="vehicle7244e15a1b99d0e2dcb48b780bce2c6f" inputJointIndex="1"/>
+        </attacherJoints>
+        <FS25_Courseplay>
+            <cpCourseManager assignedCoursesID="0"/>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="2" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="1.7999999999999818" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="12.299999999999972" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="12.299999999999972" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="1" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters x="1154.681152" z="80.789558" angle="5.105088" name="startPosition"/>
+                    <cpJobParameters x="1154.681152" z="80.789558" name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="1" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/kaercher/hds9184M/hds9184M.xml" uniqueId="vehicleb41a83c481af916e0d2d1b7830f87983" age="0.000000" price="4300.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="831.761 107.024 -349.033" rotation="-6.11 88.13 -5.97"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="TRELLEBORG_DEFAULT" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000000">
+            <wearNode amount="0.000000"/>
+        </wearable>
+        <handToolHolders>
+            <handToolHolder index="1" uniqueId="090f336e2d3f42b58913b85846550b2f"/>
+        </handToolHolders>
+        <wheels lastConfigId="TRELLEBORG_DEFAULT"/>
+        <enterable activeCameraIndex="1" isTabbable="false" isLeavingAllowed="true">
+            <camera rotation="-18.00 180.00 0.00" translation="0.000 0.000 3.400" zoom="3.400010" fovY="54.432205"/>
+            <camera rotation="-18.00 180.00 0.00" translation="0.000 1.650 -1.300" zoom="2.100605" fovY="60.000000"/>
+        </enterable>
+        <drivable cruiseControl="7" cruiseControlReverse="5" odometerMilage="0.000033"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true"/>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="3" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="7" name="fieldWorkSpeed"/>
+                <settings currentValue="7" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="0.5" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="681" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="1" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/horsch/cultro12TC/cultro12TC.xml" uniqueId="vehicle7244e15a1b99d0e2dcb48b780bce2c6f" age="0.000000" price="79000.000000" farmId="1" propertyState="OWNED" operatingTime="2407.087646">
+        <component index="1" position="1632.937 100.886 -284.217" rotation="-176.61 -86.98 176.86"/>
+        <component index="2" position="1636.269 101.432 -281.041" rotation="-172.99 -86.96 173.25"/>
+        <component index="3" position="1636.585 101.417 -287.029" rotation="179.08 -86.98 -178.81"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="false"/>
+        <configuration name="design" id="2" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_T404" isActive="true"/>
+        <washable>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.100540" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.100265" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.100663" wetness="0.000000"/>
+            <dirtNode amount="1.000000" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.100556" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.014815">
+            <wearNode amount="0.119640"/>
+        </wearable>
+        <licensePlates variation="1" characters="EAK674___" colorIndex="2" placementIndex="1"/>
+        <wheels lastConfigId="DEFAULT_TRELLEBORG_T404"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+    </vehicle>
+    <vehicle filename="data/vehicles/newHolland/cr11/cr11.xml" uniqueId="vehiclee97b0ec611ad59ddd3ad861230a77e98" age="0.000000" price="770000.000000" farmId="1" propertyState="OWNED" operatingTime="6869.358887" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="898.015 107.032 -373.413" rotation="179.99 1.58 180.00"/>
+        <component index="2" position="897.955 107.813 -371.241" rotation="179.99 1.58 -179.99"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="pipe" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="design" id="2" isActive="false"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="motor" id="1" isActive="true"/>
+        <configuration name="wheel" id="CRAWLER_MICHELIN_cereXBib" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.004294" wetness="1.000000"/>
+            <dirtNode amount="0.004294" wetness="0.974487" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="1.000000"/>
+            <dirtNode amount="0.004294" wetness="0.974487" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="1.000000"/>
+            <dirtNode amount="0.004294" wetness="0.974487" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.974487"/>
+            <dirtNode amount="0.004294" wetness="0.974487" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.974487"/>
+        </washable>
+        <wearable damage="0.000678">
+            <wearNode amount="0.532861"/>
+        </wearable>
+        <licensePlates variation="1" characters="NHL001___" colorIndex="2" placementIndex="1"/>
+        <cylindered>
+            <movingTool rotation="0.000000"/>
+            <movingTool rotation="0.000000"/>
+        </cylindered>
+        <wheels lastConfigId="CRAWLER_MICHELIN_cereXBib"/>
+        <enterable activeCameraIndex="1" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-7.41 574.53 0.00" translation="0.000 0.000 19.917" zoom="19.916576" fovY="54.432205"/>
+            <camera rotation="-28.62 538.92 0.00" translation="0.000 3.601 3.028" zoom="4.705138" fovY="75.000008"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+            <unit index="2" fillType="DIESEL" fillLevel="965.541199"/>
+            <unit index="3" fillType="DEF" fillLevel="163.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="40" cruiseControlReverse="20" odometerMilage="19.770260"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true">
+            <lastJob type="FIELDWORK_CP">
+                <parameter name="vehicle"/>
+                <cpJobParameters x="1508.915039" z="-57.959999" angle="0.785398" name="startPosition"/>
+                <cpJobParameters x="1583.139893" z="-192.231888" name="fieldPosition"/>
+                <cpJobParameters currentValue="2" name="startAt"/>
+                <cpJobParameters currentValue="0" name="laneOffset"/>
+            </lastJob>
+        </aiJobVehicle>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1"/>
+        <dischargeable isAllowed="true"/>
+        <foldable foldAnimTime="0.000000" isAllowed="true"/>
+        <combine isSwathActive="false" workedHectars="17.151375" numAttachedCutters="0"/>
+        <pipe state="1" isStateChangeAllowed="true"/>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="3" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="2.199999999999982" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="15.199999999999962" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="3" name="strawSwath"/>
+                <settings currentValue="10.999999999998574" name="pipeOffsetX"/>
+                <settings currentValue="0.09999999999859566" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="15.199999999999962" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="2" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="3" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle filename="data/vehicles/streumaster/fw212tdProfi/fw212tdProfi.xml" uniqueId="vehicle872fe8a43fe458635d55f2bf49796b3f" age="0.000000" price="92000.000000" farmId="1" propertyState="LEASED" operatingTime="553.496765">
+        <component index="1" position="968.731 106.386 88.865" rotation="179.35 73.36 178.91"/>
+        <component index="2" position="965.407 109.905 89.892" rotation="176.70 73.46 -179.86"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_MICHELIN_cargoXBib" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TwinRadial" isActive="false"/>
+        <washable>
+            <dirtNode amount="0.026025" wetness="0.000000"/>
+            <dirtNode amount="0.026025" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.026025" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.026025" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.026025" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.002497">
+            <wearNode amount="0.002440"/>
+        </wearable>
+        <licensePlates variation="1" characters="EYI568___" colorIndex="2" placementIndex="1"/>
+        <cylindered>
+            <movingTool translation="0.000000"/>
+            <movingTool translation="0.000000"/>
+            <movingTool rotation="180.000000"/>
+            <movingTool rotation="-4.495000"/>
+            <movingTool rotation="12.218000"/>
+            <movingTool translation="0.000000"/>
+            <movingTool translation="0.000000"/>
+        </cylindered>
+        <wheels lastConfigId="DEFAULT_MICHELIN_cargoXBib"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+        <variableWorkWidth leftSide="6" rightSide="6"/>
+        <fillUnit>
+            <unit index="1" fillType="LIME" fillLevel="14800.000000"/>
+            <unit index="2" fillType="LIME" fillLevel="1200.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <craneShovel state="false"/>
+        <FS25_precisionFarming>
+            <extendedSprayer sprayAmountAutoMode="true" sprayAmountManual="1"/>
+        </FS25_precisionFarming>
+    </vehicle>
+    <vehicle filename="data/vehicles/fendt/vario1000/vario1000.xml" uniqueId="vehicle36f7879720bc2493a1a6dea60b456b11" age="0.000000" price="422000.000000" farmId="1" propertyState="OWNED" operatingTime="6660.543945" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="829.908 107.126 -424.846" rotation="-178.45 -46.33 178.84"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="design" id="1" isActive="true"/>
+        <configuration name="design2" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="cropSensor" id="1" isActive="false"/>
+        <configuration name="cropSensor" id="2" isActive="true"/>
+        <configuration name="motor" id="1" isActive="false"/>
+        <configuration name="motor" id="4" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TM1000" isActive="false"/>
+        <configuration name="wheel" id="BROAD_WEIGHTS_TRELLEBORG_TM1000" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.712992" wetness="0.000000"/>
+            <dirtNode amount="0.487474" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.487168" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.487131" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.487271" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.045327">
+            <wearNode amount="0.066843"/>
+        </wearable>
+        <licensePlates variation="6" characters="BJTU1225_" colorIndex="8" placementIndex="2"/>
+        <wheels lastConfigId="BROAD_WEIGHTS_TRELLEBORG_TM1000"/>
+        <enterable activeCameraIndex="1" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-65.02 -473.12 0.00" translation="0.000 0.000 40.000" zoom="40.000000" fovY="54.432205"/>
+            <camera rotation="-19.25 179.83 0.00" translation="0.000 3.160 -0.880" zoom="3.280140" fovY="60.000000"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="DIESEL" fillLevel="546.914368"/>
+            <unit index="2" fillType="DEF" fillLevel="81.999916"/>
+            <unit index="3" fillType="AIR" fillLevel="2980.279053"/>
+        </fillUnit>
+        <drivable cruiseControl="63" cruiseControlReverse="33" odometerMilage="28.369692"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true">
+            <lastJob type="FIELDWORK_CP">
+                <parameter name="vehicle"/>
+                <cpJobParameters x="1056.923950" z="100.400002" angle="4.319690" name="startPosition"/>
+                <cpJobParameters x="1056.923950" z="100.400002" name="fieldPosition"/>
+                <cpJobParameters currentValue="1" name="startAt"/>
+                <cpJobParameters currentValue="0" name="laneOffset"/>
+            </lastJob>
+        </aiJobVehicle>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="3" moveDown="false" attachedVehicleUniqueId="vehicleea1c349a9d00dde5815d4ec96d79e613" inputJointIndex="1"/>
+        </attacherJoints>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="1.7999999999999818" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="23.20000000000006" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="23.20000000000006" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="5" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters x="1056.923950" z="100.400002" angle="4.319690" name="startPosition"/>
+                    <cpJobParameters x="1056.923950" z="100.400002" name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="1" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+    <vehicle modName="FS25_Bourgault_Series_3320" filename="$moddir$FS25_Bourgault_Series_3320/xml/Series_7950B.xml" uniqueId="vehiclea0c5087b6a3d3e42a351b4881579155e" age="0.000000" price="272000.000000" farmId="1" propertyState="LEASED" operatingTime="705.552307">
+        <component index="1" position="846.585 107.383 -431.700" rotation="-1.24 -74.47 0.88"/>
+        <component index="2" position="843.583 108.236 -430.870" rotation="-0.89 -74.47 0.51"/>
+        <component index="3" position="841.630 108.016 -429.795" rotation="2.96 -59.16 0.06"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="designColor" id="1" isActive="true"/>
+        <configuration name="fillVolume" id="1" isActive="true"/>
+        <configuration name="wheel" id="MICHELIN_DEFAULT" isActive="true"/>
+        <configuration name="cover" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.039910" wetness="0.000000"/>
+            <dirtNode amount="0.039910" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.039910" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.039910" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.039910" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000850">
+            <wearNode amount="0.002025"/>
+        </wearable>
+        <cylindered>
+            <movingTool animationTime="0.000000"/>
+        </cylindered>
+        <wheels lastConfigId="MICHELIN_DEFAULT"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+            <unit index="2" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+        <dischargeable isAllowed="true"/>
+    </vehicle>
+    <vehicle modName="FS25_Bourgault_Series_3320" filename="$moddir$FS25_Bourgault_Series_3320/xml/Series_3320.xml" uniqueId="vehicleea1c349a9d00dde5815d4ec96d79e613" age="0.000000" price="273500.000000" farmId="1" propertyState="LEASED" operatingTime="970.088562">
+        <component index="1" position="837.826 107.009 -426.386" rotation="0.19 -43.87 0.16"/>
+        <component index="2" position="835.783 107.565 -424.378" rotation="-0.05 -75.75 0.39"/>
+        <component index="3" position="833.681 107.600 -423.842" rotation="-5.16 -75.70 0.37"/>
+        <component index="4" position="840.124 110.264 -424.948" rotation="-43.87 -0.14 90.30"/>
+        <component index="5" position="836.288 110.252 -428.636" rotation="43.87 0.14 -89.71"/>
+        <component index="6" position="839.406 110.592 -425.636" rotation="40.83 17.68 -108.93"/>
+        <component index="7" position="837.003 110.585 -427.946" rotation="-40.93 17.43 109.49"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="designColor" id="1" isActive="true"/>
+        <configuration name="wheel" id="MICHELIN_DEFAULT" isActive="true"/>
+        <configuration name="designColor2" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.051432" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.001170">
+            <wearNode amount="0.000995"/>
+        </wearable>
+        <wheels lastConfigId="MICHELIN_DEFAULT"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="1" moveDown="false" attachedVehicleUniqueId="vehiclea0c5087b6a3d3e42a351b4881579155e" inputJointIndex="1"/>
+        </attacherJoints>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+            <unit index="2" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <sowingMachine selectedSeedFruitType="WHEAT" allowsSeedChanging="true"/>
+        <FS25_AutomaticTramlineSystem>
+            <fahrgassenAutomatik>
+                <spec_fahrgassenAutomatik N="2" areaTotal="0.000000" areaSession="0.000000" evPassStart="1" pass="1" mode="Pause" tramCenterDistance="2.000000" tramHalfWidth="0.600000" tramForwardOffset="0.500000" tramLateralOffset="0.000000" tramlineType="cultivated" ridgeMarkerMode="off" rmTotalPassCount="0" hudPosX="0.414062" hudPosY="0.034722" hudVisible="true" halfSide="0"/>
+            </fahrgassenAutomatik>
+        </FS25_AutomaticTramlineSystem>
+        <FS25_precisionFarming>
+            <extendedSprayer sprayAmountAutoMode="true" sprayAmountManual="1"/>
+        </FS25_precisionFarming>
+    </vehicle>
+    <vehicle modName="FS25_agrioGigant" filename="$moddir$FS25_agrioGigant/gigant.xml" uniqueId="vehiclec6148d126bfc3e049c7b61552347cbd9" age="0.000000" price="255000.000000" farmId="1" propertyState="OWNED" operatingTime="0.000000" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="-543.471 81.984 488.345" rotation="-179.75 0.00 -179.81"/>
+        <configuration name="ai" id="1" isActive="false"/>
+        <configuration name="ai" id="4" isActive="true"/>
+        <configuration name="pulseWidthModulation" id="1" isActive="false"/>
+        <configuration name="pulseWidthModulation" id="2" isActive="true"/>
+        <configuration name="variableWorkWidth" id="1" isActive="false"/>
+        <configuration name="variableWorkWidth" id="4" isActive="true"/>
+        <configuration name="weedSpotSpray" id="1" isActive="false"/>
+        <configuration name="weedSpotSpray" id="2" isActive="true"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="folding" id="1" isActive="true"/>
+        <configuration name="wheel" id="NARROW_TRELLEBORG_TM600" isActive="false"/>
+        <configuration name="wheel" id="NARROW_MICHELIN_agriBib" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.000044" wetness="0.000000"/>
+            <dirtNode amount="0.000044" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000044" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000044" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.000044" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.000000">
+            <wearNode amount="0.000004"/>
+        </wearable>
+        <licensePlates variation="1" characters="EYI568___" colorIndex="2" placementIndex="1"/>
+        <cylindered>
+            <movingTool translation="0.115000"/>
+        </cylindered>
+        <wheels lastConfigId="NARROW_MICHELIN_agriBib"/>
+        <attachable isDetachingBlocked="false"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000" isAllowed="true"/>
+        <variableWorkWidth leftSide="4" rightSide="4"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <dischargeable isAllowed="true"/>
+        <FS25_precisionFarming>
+            <extendedSprayer sprayAmountAutoMode="true" sprayAmountManual="1"/>
+        </FS25_precisionFarming>
+    </vehicle>
+    <vehicle modName="FS25_CaseIH_340_400TSE_FL" filename="$moddir$FS25_CaseIH_340_400TSE_FL/magnumSpecialEdition_FL.xml" uniqueId="vehicleb6b5350340f3b2abdb0d06239432dfe5" age="0.000000" price="442500.000000" farmId="1" propertyState="OWNED" operatingTime="3045.964600" selectedObjectIndex="1" subSelectedObjectIndex="1">
+        <component index="1" position="976.599 106.380 86.500" rotation="178.24 73.16 177.86"/>
+        <component index="2" position="977.828 107.160 86.137" rotation="178.17 73.16 177.80"/>
+        <configuration name="fillUnit" id="1" isActive="true"/>
+        <configuration name="designColor4" id="1" isActive="true"/>
+        <configuration name="designColor6" id="1" isActive="true"/>
+        <configuration name="designColor5" id="1" isActive="true"/>
+        <configuration name="designColor3" id="1" isActive="true"/>
+        <configuration name="attacherJoint" id="1" isActive="true"/>
+        <configuration name="rimColor" id="1" isActive="true"/>
+        <configuration name="frontloader" id="1" isActive="false"/>
+        <configuration name="frontloader" id="2" isActive="true"/>
+        <configuration name="designColor2" id="1" isActive="true"/>
+        <configuration name="motor" id="1" isActive="false"/>
+        <configuration name="motor" id="8" isActive="false"/>
+        <configuration name="motor" id="7" isActive="true"/>
+        <configuration name="wheel" id="DEFAULT_TRELLEBORG_TM1000" isActive="false"/>
+        <configuration name="wheel" id="CRAWLER_BROAD_MITAS_SFT" isActive="true"/>
+        <configuration name="designColor" id="1" isActive="false"/>
+        <configuration name="designColor" id="CLAAS_GREEN1" isActive="true"/>
+        <configuration name="design" id="1" isActive="false"/>
+        <configuration name="design" id="3" isActive="true"/>
+        <configuration name="design2" id="1" isActive="true"/>
+        <configuration name="design4" id="1" isActive="false"/>
+        <configuration name="design4" id="8" isActive="true"/>
+        <configuration name="design5" id="1" isActive="false"/>
+        <configuration name="design5" id="2" isActive="true"/>
+        <configuration name="design3" id="1" isActive="true"/>
+        <configuration name="baseColor" id="1" isActive="false"/>
+        <configuration name="baseColor" id="CLAAS_GREEN1" isActive="true"/>
+        <washable>
+            <dirtNode amount="0.243539" wetness="0.000000"/>
+            <dirtNode amount="0.349820" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349820" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349836" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+            <dirtNode amount="0.349820" wetness="0.000000" snowScale="0.000000"/>
+            <dirtNode amount="0.000000" wetness="0.000000"/>
+        </washable>
+        <wearable damage="0.002534">
+            <wearNode amount="0.014050"/>
+        </wearable>
+        <licensePlates variation="1" characters="KAK001___" colorIndex="2" placementIndex="1"/>
+        <wheels lastConfigId="CRAWLER_BROAD_MITAS_SFT"/>
+        <enterable activeCameraIndex="3" isTabbable="true" isLeavingAllowed="true">
+            <camera rotation="-28.65 159.13 0.00" translation="0.000 0.000 8.100" zoom="8.100010" fovY="54.432205"/>
+            <camera rotation="-14.73 192.56 0.00" translation="0.000 2.595 -1.221" zoom="2.868248" fovY="60.000000"/>
+            <camera rotation="152.98 -10.41 180.00" translation="0.000 0.500 0.000" zoom="0.500010" fovY="70.000008"/>
+        </enterable>
+        <fillUnit>
+            <unit index="1" fillType="DIESEL" fillLevel="601.988770"/>
+            <unit index="2" fillType="DEF" fillLevel="98.000000"/>
+            <unit index="3" fillType="AIR" fillLevel="1625.497192"/>
+        </fillUnit>
+        <drivable cruiseControl="10" cruiseControlReverse="32" odometerMilage="13.572014"/>
+        <aiFieldWorker isActive="false"/>
+        <aiJobVehicle isAIStartAllowed="true">
+            <lastJob type="GOTO">
+                <parameter name="vehicle" vehicleUniqueId="vehicleb6b5350340f3b2abdb0d06239432dfe5"/>
+                <parameter name="positionAngle" x="974.088684" z="86.698311" angle="1.727876"/>
+            </lastJob>
+        </aiJobVehicle>
+        <aiAutomaticSteering courseWasActive="true" isOnField="false"/>
+        <aiModeSelection currentMode="WORKER"/>
+        <attacherJoints comboDirection="-1">
+            <attachedImplement jointIndex="3" moveDown="false" attachedVehicleUniqueId="vehicle872fe8a43fe458635d55f2bf49796b3f" inputJointIndex="1"/>
+        </attacherJoints>
+        <FS25_Courseplay>
+            <cpVehicleSettings debugActive="false">
+                <settings currentValue="1" name="showCourse"/>
+                <settings currentValue="true" name="openHudWithMouse"/>
+                <settings currentValue="true" name="fuelSave"/>
+                <settings currentValue="false" name="restartCourseAtEnd"/>
+                <settings currentValue="true" name="turnOnField"/>
+                <settings currentValue="true" name="avoidFruit"/>
+                <settings currentValue="true" name="useJps"/>
+                <settings currentValue="1" name="penaltyFactor"/>
+                <settings currentValue="true" name="allowReversePathfinding"/>
+                <settings currentValue="false" name="allowPathfinderTurns"/>
+                <settings currentValue="false" name="loopTurnsOnHeadland"/>
+                <settings currentValue="true" name="foldImplementAtEnd"/>
+                <settings currentValue="false" name="returnToStart"/>
+                <settings currentValue="false" name="raiseImplementLate"/>
+                <settings currentValue="false" name="lowerImplementEarly"/>
+                <settings currentValue="-1.8790524691780774e-14" name="toolOffsetX"/>
+                <settings currentValue="1.6999999999999817" name="baleCollectorOffset"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetX"/>
+                <settings currentValue="-1.8790524691780774e-14" name="combineOffsetZ"/>
+                <settings currentValue="85" name="fullThreshold"/>
+                <settings currentValue="false" name="useAdditiveFillUnit"/>
+                <settings currentValue="0" name="refillOnTheField"/>
+                <settings currentValue="42.00000000000033" name="bunkerSiloWorkWidth"/>
+                <settings currentValue="3.191891195797325e-16" name="loadingShovelHeightOffset"/>
+                <settings currentValue="0" name="levelerHeightOffset"/>
+                <settings currentValue="false" name="automaticCutterAttach"/>
+                <settings currentValue="false" name="stopForUnload"/>
+                <settings currentValue="false" name="selfUnload"/>
+                <settings currentValue="false" name="unloadOnFirstHeadland"/>
+                <settings currentValue="80" name="callUnloaderPercent"/>
+                <settings currentValue="2" name="strawSwath"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetX"/>
+                <settings currentValue="-1.4043488594239761e-12" name="pipeOffsetZ"/>
+                <settings currentValue="false" name="ridgeMarkersAutomatic"/>
+                <settings currentValue="true" name="sowingMachineFertilizerEnabled"/>
+                <settings currentValue="false" name="optionalSowingMachineEnabled"/>
+                <settings currentValue="75" name="convoyDistance"/>
+                <settings currentValue="25" name="fieldWorkSpeed"/>
+                <settings currentValue="20" name="fieldSpeed"/>
+                <settings currentValue="8" name="turnSpeed"/>
+                <settings currentValue="5" name="reverseSpeed"/>
+                <settings currentValue="15" name="bunkerSiloSpeed"/>
+                <settings currentValue="false" name="debugActive"/>
+            </cpVehicleSettings>
+            <cpCourseGeneratorSettings>
+                <settings currentValue="42.00000000000033" name="workWidth"/>
+                <settings currentValue="1" name="multiTools"/>
+                <settings currentValue="false" name="useSameTurnWidth"/>
+                <settings currentValue="2.1649348980190553e-15" name="fieldMargin"/>
+                <settings currentValue="0" name="numberOfHeadlands"/>
+                <settings currentValue="false" name="narrowField"/>
+                <settings currentValue="true" name="startOnHeadland"/>
+                <settings currentValue="true" name="sharpenCorners"/>
+                <settings currentValue="1" name="headlandsWithRoundCorners"/>
+                <settings currentValue="6" name="turningRadius"/>
+                <settings currentValue="true" name="headlandClockwise"/>
+                <settings currentValue="7" name="headlandOverlapPercent"/>
+                <settings currentValue="1" name="centerMode"/>
+                <settings currentValue="false" name="centerClockwise"/>
+                <settings currentValue="false" name="evenRowWidth"/>
+                <settings currentValue="false" name="useBaseLineEdge"/>
+                <settings currentValue="true" name="autoRowAngle"/>
+                <settings currentValue="0" name="manualRowAngleDeg"/>
+                <settings currentValue="0" name="rowsToSkip"/>
+                <settings currentValue="2" name="numberOfCircles"/>
+                <settings currentValue="6" name="rowsPerLand"/>
+                <settings currentValue="false" name="spiralFromInside"/>
+                <settings currentValue="true" name="bypassIslands"/>
+                <settings currentValue="1" name="nIslandHeadlands"/>
+                <settings currentValue="true" name="islandHeadlandClockwise"/>
+                <vineSettings currentValue="0" name="vineCenterOffset"/>
+                <vineSettings currentValue="0" name="vineRowsToSkip"/>
+            </cpCourseGeneratorSettings>
+            <cpAIFieldWorker>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="3" name="startAt"/>
+                    <cpJobParameters currentValue="0" name="laneOffset"/>
+                </cpJobStartAtLastWp>
+            </cpAIFieldWorker>
+            <cpAIBaleFinder>
+                <cpJob>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJob>
+                <cpJobStartAtLastWp>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="baleWrapType"/>
+                </cpJobStartAtLastWp>
+            </cpAIBaleFinder>
+            <cpAICombineUnloader>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters x="1510.942017" z="-159.591461" name="fieldPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadTarget"/>
+                    <cpJobParameters currentValue="false" name="useGiantsUnload"/>
+                    <cpJobParameters currentValue="341" name="unloadingStation"/>
+                    <cpJobParameters currentValue="false" name="useFieldUnload"/>
+                    <cpJobParameters x="954.054016" z="-288.604858" angle="1.570796" name="fieldUnloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadingTipSide"/>
+                </cpJob>
+            </cpAICombineUnloader>
+            <cpAISiloLoaderWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="loadPosition"/>
+                    <cpJobParameters currentValue="1" name="unloadAt"/>
+                    <cpJobParameters name="unloadPosition"/>
+                    <cpJobParameters currentValue="-1" name="unloadStation"/>
+                </cpJob>
+            </cpAISiloLoaderWorker>
+            <cpAIBunkerSiloWorker>
+                <cpJob>
+                    <parameter name="vehicle"/>
+                    <cpJobParameters name="startPosition"/>
+                    <cpJobParameters name="siloPosition"/>
+                    <cpJobParameters currentValue="true" name="drivingForwardsIntoSilo"/>
+                    <cpJobParameters currentValue="false" name="waitAtParkPosition"/>
+                    <cpJobParameters currentValue="false" name="stopWithCompactedSilo"/>
+                </cpJob>
+            </cpAIBunkerSiloWorker>
+            <cpHud>
+                <settings currentValue="1" name="selectedJob"/>
+            </cpHud>
+        </FS25_Courseplay>
+    </vehicle>
+</vehicles>

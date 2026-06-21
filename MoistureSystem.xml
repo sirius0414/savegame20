@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MoistureSystem currentMoisturePercent="0.132918" dryingInfoShown="true" gridSize="2">
+    <settings environment="2" moistureLossMultiplier="3.000000" moistureGainMultiplier="3.000000" teddingMoistureReduction="0.020000" baleRotEnabled="true" baleRotRate="1.000000" baleExposureDecayRate="1.000000" qualityDecayMultiplier="1.000000" dryingSpeed="0.010000" sellDryingChargeRate="1.000000" showFieldMoisture="false" moistureMeterReporting="1"/>
+    <activeDryers>
+        <dryer placeableId="placeable9037e9980998c6a1ca44d4d616ab2761"/>
+    </activeDryers>
+    <objectMoisture>
+        <object uniqueId="iteme9a71658fc5634e30d2af0b86f08dddf"/>
+        <object uniqueId="itemac872acc9adaae069778328cd204108c"/>
+        <object uniqueId="item255a59deb12022d0c058e9e407284b55"/>
+        <object uniqueId="item7e376df9f50b9fab34c53485e7b31419"/>
+        <object uniqueId="item8ecfd69cbcbab2f017035e881866ef0b"/>
+        <object uniqueId="item04704d0a53e993ff576e0185177a57b6"/>
+        <object uniqueId="itema88a2d83e10828c40daa83cadc337fa5"/>
+        <object uniqueId="item36d366e6da1edf0b8986ea607fd859a2"/>
+        <object uniqueId="item26717466c257def1b8df927e5bdeabcc"/>
+        <object uniqueId="item227acc6629272cfff35f89eb532c3add"/>
+        <object uniqueId="item9dfadef0854c54588f95c877b746fabf"/>
+        <object uniqueId="itemb7355b118da44f1fc9ced3f868235cd7"/>
+        <object uniqueId="itemed09c12df774609d8392ddbedad930f7"/>
+        <object uniqueId="item21bccc8d3a8793f4b4da5d548b6f1841"/>
+        <object uniqueId="vehiclee97b0ec611ad59ddd3ad861230a77e98"/>
+        <object uniqueId="item6593e6708291ceeb72077dd6e3e6130f"/>
+        <object uniqueId="item480fc28fae72f4f44df73caad82313c1"/>
+        <object uniqueId="itemd0f6850a146eec535c88142af0eec71f"/>
+        <object uniqueId="itemc98c961f2b09272ac416a317860ae178"/>
+        <object uniqueId="itemc49e642be0b9d908f0b3fb998f32448b"/>
+        <object uniqueId="itemca621f25ecba2a4ed1d6b474c2b1df6c"/>
+        <object uniqueId="item447c40f1c33e78c83ea4b810e70ecc36"/>
+        <object uniqueId="itemad49c10a527388b62ee1d357360067a5"/>
+        <object uniqueId="vehicle329887f9e43d5739ab22826a52ff0a3e"/>
+        <object uniqueId="itemd2603f2b6c1d983fb1d97d52d2228181"/>
+        <object uniqueId="placeable9037e9980998c6a1ca44d4d616ab2761">
+            <fillType name="WHEAT" moisture="0.142921" quality="87.195908"/>
+            <fillType name="CANOLA" moisture="0.136988" quality="69.828087"/>
+        </object>
+        <object uniqueId="itemd6a76b206b4e4d6ebf9589cd940483ad"/>
+        <object uniqueId="item75d9034b988402bee7134cfb441704ee"/>
+        <object uniqueId="item75c303808c3a8898660cd65ce5db23b3"/>
+        <object uniqueId="item780364f29937c532d32b4f111c80e5bf"/>
+        <object uniqueId="item6e11550c1ded21bac5655d6681ea8a57"/>
+        <object uniqueId="item0a7fcc83503d7592e5745ac868bce2f2"/>
+        <object uniqueId="vehiclebe23812d7649e04a170450796ed6eb69">
+            <fillType name="STRAW" moisture="0.141754" quality="100.000000"/>
+        </object>
+        <object uniqueId="item7079dc4417aa676c4f1f51f7136f7032"/>
+        <object uniqueId="item4f7a973d5347546ee0a26ce4d1f93086"/>
+        <object uniqueId="item320591414c0ffaee303e4e6a992b93d2"/>
+        <object uniqueId="item2e45ec5b0a93160b34db5b0658b597b1"/>
+        <object uniqueId="vehiclef4eb06e16e3ec05b761352627ce5ac7e">
+            <fillType name="WHEAT" moisture="0.145956" quality="88.200600"/>
+        </object>
+        <object uniqueId="item2c0d25c2e8d6e064c4a06eb812fcdc9d"/>
+        <object uniqueId="item78e5e3b5db339229ab022a1e8cb22fb4"/>
+        <object uniqueId="vehiclea434a91d3eadfbf99928aa60eafbb52e"/>
+        <object uniqueId="itemdf44b029383f682f9e8e7b9002e26850"/>
+        <object uniqueId="item5a4a94439f5d6cb3a3d26083e866e72c"/>
+        <object uniqueId="item8887d1d9a6225a1f8dad9bd10cc3d6c3"/>
+        <object uniqueId="vehicle796ae73ce15915d3b0a03434da646168"/>
+        <object uniqueId="itema843b198e799a50f8da34e00a7ffba5e"/>
+        <object uniqueId="itemb42e2575a517f403a2e9596910397d32"/>
+        <object uniqueId="item94d52b48c0ce34af3852f2ef72a5bde5"/>
+        <object uniqueId="item217ba6975ba7189313939da4908cadac"/>
+        <object uniqueId="item49d0b919408a6b6626d8c8cfc7a6098b"/>
+        <object uniqueId="item27726fe25275d7e695c9275e17d7a0a9"/>
+        <object uniqueId="itemed15bc8aacd2a7327dcf47082e245e56"/>
+        <object uniqueId="itemcad965c7e9baae86e29117c78ef5675e"/>
+        <object uniqueId="item2738bd855a17f92916cc21f267c6b3ef"/>
+        <object uniqueId="itemc15d2c325c6b5dfdb7953c36e6ecac14"/>
+        <object uniqueId="itembdda702f480ec3512e8f9fde23d33d26"/>
+        <object uniqueId="itemc2b5d32be2f8ad4c9a7ba9cace456627"/>
+        <object uniqueId="item6ef0d2ab57f707f91e8dea6c07e76d97"/>
+        <object uniqueId="itemdbb0927a54e9faea16a1df1af0ab5f78"/>
+        <object uniqueId="item7b97fe3a2e41ab8fc147c9ac33778249"/>
+        <object uniqueId="item1f94803a024f3c1dda3185ebb3d9b769"/>
+        <object uniqueId="item3deb03762ede333021c4e4bc52d48519"/>
+        <object uniqueId="item1483e5384225a6a47bfe32eb2495582c"/>
+        <object uniqueId="itemdb351a712dff3523811f37e47a344e9b"/>
+        <object uniqueId="itemfd012ada73985ad9c878a3db7bbd5427"/>
+    </objectMoisture>
+</MoistureSystem>

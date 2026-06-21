@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<handTools>
+    <handTool modName="FS25_MoistureSystem" filename="$moddir$FS25_MoistureSystem/objects/moistureMeter/moistureMeter.xml" uniqueId="HandTool58876544d9e11eadc1922713ca065c75" farmId="1" age="0.000000">
+        <holder uniqueId="1BwfYr4rIBBnnXZPP/6sKyQwC8bxB0HgzdVFrHNVY/4="/>
+    </handTool>
+    <handTool modName="pdlc_highlandsFishingPack" filename="$pdlcdir$highlandsFishingPack/handTools/fishingRod/fishingRod.xml" uniqueId="HandTool71d419eea119f7996c7e94fff2c06d95" farmId="1" age="0.000000">
+        <holder uniqueId="1BwfYr4rIBBnnXZPP/6sKyQwC8bxB0HgzdVFrHNVY/4="/>
+    </handTool>
+    <handTool filename="data/handTools/brandless/horseBrush/horseBrush.xml" uniqueId="HandTool71f4dbd8d14112382e599cb03bacd358" farmId="1" age="0.000000">
+        <holder uniqueId="1BwfYr4rIBBnnXZPP/6sKyQwC8bxB0HgzdVFrHNVY/4="/>
+    </handTool>
+    <handTool filename="data/handTools/jonsered/cs2252/cs2252.xml" uniqueId="HandToolef3888c54e522b759913c2535b2f937a" farmId="1" age="0.000000">
+        <holder uniqueId="1BwfYr4rIBBnnXZPP/6sKyQwC8bxB0HgzdVFrHNVY/4="/>
+    </handTool>
+    <handTool modName="FS25_MoistureSystem" filename="$moddir$FS25_MoistureSystem/objects/moistureMeter/moistureMeter.xml" uniqueId="HandToole3db18f41fd54dd63849b67fde4bf411" farmId="1" age="0.000000">
+        <holder uniqueId="qXro2L0ITbEg2rIi6Hz0Hs7UxRNs7GBAE7YNDXoUCXk="/>
+    </handTool>
+    <handTool modName="pdlc_highlandsFishingPack" filename="$pdlcdir$highlandsFishingPack/handTools/fishingRod/fishingRod.xml" uniqueId="HandToolb32553cfa47bb7bd1a82ce7bde16599e" farmId="1" age="0.000000">
+        <holder uniqueId="qXro2L0ITbEg2rIi6Hz0Hs7UxRNs7GBAE7YNDXoUCXk="/>
+    </handTool>
+</handTools>
